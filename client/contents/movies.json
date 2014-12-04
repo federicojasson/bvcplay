@@ -1,0 +1,112 @@
+[
+	{
+		"duration": 124,
+		"genders": [
+			"Acción",
+			"Drama",
+			"Suspenso"
+		],
+		"id": "6aa5a765-eb0b-414d-8115-a7eef859cd37"
+		"name": "La suma de todos los miedos",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTIwMTEyNDQ2MF5BMl5BanBnXkFtZTYwMzcxNjc5._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 89,
+		"genders": [
+			"Animación",
+			"Aventura",
+			"Drama"
+		],
+		"id": "0d0337f8-4128-4885-8d7f-f451ad30ec1a",
+		"name": "El rey león",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMjEyMzgwNTUzMl5BMl5BanBnXkFtZTcwNTMxMzM3Ng@@._V1_SY317_CR15,0,214,317_AL_.jpg"
+	},
+	
+	{
+		"duration": 91,
+		"genders": [
+			"Ciencia ficción",
+			"Suspenso"
+		],
+		"id": "ad5938a4-44a7-4fe7-a007-f42b38301dc2",
+		"name": "Gravedad",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+	},
+	
+	{
+		"duration": 134,
+		"genders": [
+			"Biografía",
+			"Drama",
+			"Suspenso"
+		],
+		"id": "ed8aece2-db1f-442e-bc97-98142cbc548a",
+		"name": "Capitán Phillips",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTQzNzExMDg3Ml5BMl5BanBnXkFtZTgwODU1NzEzMDE@._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 165,
+		"genders": [
+			"Drama"
+		],
+		"id": "20c83cc8-56a9-4abe-a418-b72f7155224c",
+		"name": "Boyhood: Momentos de una vida",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+	},
+	
+	{
+		"duration": 112,
+		"genders": [
+			"Terror"
+		],
+		"id": "36dcf598-3623-4d5c-8d8b-3ada1ef7f048",
+		"name": "El conjuro",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 169,
+		"genders": [
+			"Aventura",
+			"Ciencia ficción"
+		],
+		"id": "25ecc4c0-9123-4c90-93f2-cea835ed1493",
+		"name": "Interestelar",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 142,
+		"genders": [
+			"Aventura",
+			"Ciencia ficción"
+		],
+		"id": "4de28b34-cae6-4446-80b4-43a303e45f65",
+		"name": "Los juegos del hambre",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 169,
+		"genders": [
+			"Aventura",
+			"Fantasía"
+		],
+		"id": "f02b6b29-8ce7-4166-9f00-8d4f6ca06c08",
+		"name": "El Hobbit: Un viaje inesperado",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX214_AL_.jpg"
+	},
+	
+	{
+		"duration": 141,
+		"genders": [
+			"Acción",
+			"Suspenso"
+		],
+		"id": "6118c432-1ded-4641-867b-2ded31144d12",
+		"name": "Mentiras verdaderas",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTM4OTIzNjcxM15BMl5BanBnXkFtZTcwMjc2MzE2MQ@@._V1_SY317_CR2,0,214,317_AL_.jpg"
+	}
+]

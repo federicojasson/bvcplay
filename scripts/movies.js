@@ -4,7 +4,16 @@
 (function() {
 	// Module: movies
 	var module = angular.module('movies', [
-		'ngResource'
+		'ngResource',
+		'ui.router'
+	]);
+	
+	// Controller: MovieController
+	module.controller('MovieController', [
+		'$sce',
+		'$stateParams',
+		'moviesLoader',
+		MovieController
 	]);
 	
 	// Controller: MoviesController
@@ -19,8 +28,28 @@
 		moviesLoaderService
 	]);
 	
+	function MovieController($sce, $stateParams, moviesLoader) {
+		var controller = this;
+		
+		var movie = null;
+		
+		controller.getMovie = function() {
+			return movie;
+		};
+		
+		moviesLoader.loadMovies().then(function(loadedMovies) {
+			for (var i = 0; i < loadedMovies.length; i++) {
+				if (loadedMovies[i].id === $stateParams.id) {
+					movie = loadedMovies[i];
+					movie.source = $sce.trustAsResourceUrl(movie.source);
+					return;
+				}
+			}
+		});
+	}
+	
 	function MoviesController(moviesLoader) {
-		var controller = this
+		var controller = this;
 		
 		var movies = [];
 		

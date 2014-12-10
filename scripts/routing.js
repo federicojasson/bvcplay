@@ -42,6 +42,12 @@
 			url: '/movies'
 		});
 		
+		// State: site.music
+		$stateProvider.state('site.music', {
+			templateUrl: 'templates/views/music.html',
+			url: '/music'
+		});
+		
 		// State: site.series
 		$stateProvider.state('site.series', {
 			templateUrl: 'templates/views/series.html',

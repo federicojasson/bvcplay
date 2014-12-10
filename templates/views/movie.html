@@ -1,3 +1,43 @@
 <span ng-controller="MovieController as movie">
-	<iframe width="560" height="315" ng-src="{{ movie.getMovie().source }}" frameborder="0" allowfullscreen></iframe>
+	<div class="movie-info-container row well">
+		<div class="movie-info-poster">
+			<img ng-src="{{ movie.getMovie().poster }}">
+		</div>
+		<div class="movie-info">
+			<div class="movie-info-title">
+				{{ movie.getMovie().name }}
+			</div>
+			
+			<dl>
+				<dt>Duración</dt>
+				<dd>{{ movie.getMovie().duration }} minutos</dd>
+				
+				<dt>Géneros</dt>
+				<dd>
+					<span ng-repeat="gender in movie.getMovie().genders">
+						<span class="label label-default">{{ gender }}</span>
+					</span>
+				</dd>
+				
+				<dt>Sinopsis</dt>
+				<dd>
+					{{ movie.getMovie().synopsis }}
+				</dd>
+			</dl>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3 well">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe
+					allowfullscreen
+					class="embed-responsive-item"
+					ng-src="{{ movie.getMovie().source }}"
+				></iframe>
+			</div>
+		</div>
+	</div>
 </span>

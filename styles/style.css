@@ -1,5 +1,108 @@
+@font-face {
+	font-family: "Bebas Neue";
+	src: local("Bebas Neue"), local("BebasNeue"), url(../fonts/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans Normal"), local("OpenSans-Normal"), url(../fonts/OpenSans-Normal.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans-Bold.ttf);
+}
+
 body {
-	padding-top: 70px;
+	background-color: #222222;
+	font-family: "Open Sans", sans-serif;
+	min-width: 1024px;
+	padding-top: 96px;
+}
+
+dt {
+	margin-top: 16px;
+}
+
+.content-container {
+	background-color: #ffffff;
+	min-height: 320px;
+	padding-top: 20px;
+	padding-bottom: 64px;
+}
+
+.footer-container {
+	color: #acacac;
+}
+
+.footer-container hr {
+	border-color: #2f2f2f;
+}
+
+.footer-copyright {
+	font-size: 0.8em;
+	margin-bottom: 16px;
+	margin-top: -8px;
+	text-align: center;
+}
+
+.footer-menu {
+	padding: 32px 0px;
+}
+
+.footer-menu a {
+	color: inherit;
+}
+
+.footer-menu li {
+	color: #777777;
+	font-size: 0.9em;
+	font-weight: 300;
+	margin-bottom: 4px;
+}
+
+.footer-menu li.header {
+	color: inherit;
+	font-size: 0.92em;
+	font-weight: 700;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.input-lg + .glyphicon {
+	margin-top: 10px;
+}
+
+.movie-info {
+	float: left;
+	margin-left: 32px;
+	margin-right: 32px;
+	max-width:60%;
+}
+
+.movie-info-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+.movie-info-poster {
+	float: left;
+}
+
+.movie-info-title {
+	font-size: 2em;
+	margin-top: 16px;
 }
 
 .movie-poster {
@@ -32,4 +135,40 @@ body {
 
 .movie-posters {
 	text-align: center;
+}
+
+.navbar {
+	min-height: 80px;
+	padding: 8px;
+}
+
+.navbar-form {
+	line-height: 64px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.navbar-logo-image {
+	background-image: url(../images/logo.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 165px;
+}
+
+.navbar-nav {
+	margin-left: 64px;
+}
+
+.navbar-nav li a {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 2em;
+	letter-spacing: 0.05em;
+	line-height: 80px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.rounded-input {
+	border-radius: 24px;
 }

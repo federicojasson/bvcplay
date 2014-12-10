@@ -1,9 +1,9 @@
 <nav class="navbar navbar-fixed-top navbar-inverse">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#/">BVC Play</a>
+		<a class="navbar-brand navbar-logo-image" href="#/"></a>
 	</div>
 	
-	<div class="collapse navbar-collapse navbar-right">
+	<div class="collapse navbar-collapse navbar-left">
 		<ul class="nav navbar-nav">
 			<li>
 				<a href="#/movies">Películas</a>
@@ -11,10 +11,76 @@
 			<li>
 				<a href="#/series">Series</a>
 			</li>
+			<li>
+				<a href="#/music">Música</a>
+			</li>
 		</ul>
+	</div>
+	
+	<div class="navbar-right">
+		<form class="navbar-form">
+			<div class="has-feedback form-group">
+				<input class="form-control input-lg rounded-input" placeholder="Buscar" type="text">
+				<span class="glyphicon glyphicon-search form-control-feedback"></span>
+			</div>
+		</form>
 	</div>
 </nav>
 
 <div class="container-fluid">
-	<span ui-view></span>
+	<div class="row">
+		<div class="col-sm-12 content-container" ui-view></div>
+	</div>
+	
+	<div class="footer-container row">
+		<div class="col-sm-12">
+			<div class="footer-menu row">
+				<div class="col-sm-3 col-sm-offset-1">
+					<ul class="list-unstyled">
+						<li class="header">Menu</li>
+						<li>
+							<a href="#/movies">Películas</a>
+						</li>
+						<li>
+							<a href="#/series">Series</a>
+						</li>
+						<li>
+							<a href="#/music">Música</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-2 col-sm-offset-1"></div>
+				<div class="col-sm-2">
+					<ul class="list-unstyled">
+						<li class="header">Información</li>
+						<li>
+							<a href="">Términos y condiciones</a>
+						</li>
+						<li>
+							<a href="">Legislación</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<ul class="list-unstyled">
+						<li class="header">Soporte</li>
+						<li>
+							<a href="">Ayuda</a>
+						</li>
+						<li>
+							<a href="">Atención al cliente</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+				<div class="col-sm-12 footer-copyright">
+					© 2014 BVC Play | Todos los derechos reservados
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

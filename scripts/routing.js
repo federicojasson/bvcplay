@@ -30,6 +30,12 @@
 			url: '/'
 		});
 		
+		// State: site.movie
+		$stateProvider.state('site.movie', {
+			templateUrl: 'templates/views/movie.html',
+			url: '/movie/:id'
+		});
+		
 		// State: site.movies
 		$stateProvider.state('site.movies', {
 			templateUrl: 'templates/views/movies.html',

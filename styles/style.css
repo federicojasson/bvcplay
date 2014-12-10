@@ -1,0 +1,35 @@
+body {
+	padding-top: 70px;
+}
+
+.movie-poster {
+	display: inline-block;
+	margin: 16px;
+}
+
+.movie-poster a {
+	border: 1px solid #f2f2f2;
+	color: #999999;
+	display: block;
+	text-align: center;
+}
+
+.movie-poster a:hover {
+	border: 1px solid #aaaaaa;
+	color: #777777;
+	text-decoration: none;
+}
+
+.movie-poster div {
+	margin: 8px;
+	max-width: 240px;
+}
+
+.movie-poster img {
+	height: 360px;
+	width: 240px;
+}
+
+.movie-posters {
+	text-align: center;
+}

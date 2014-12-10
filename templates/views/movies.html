@@ -1,0 +1,14 @@
+<span ng-controller="MoviesController as movies">
+	<div class="movie-posters">
+		<div class="movie-poster" ng-repeat="movie in movies.getMovies()">
+			<a ng-href="#/movie/{{ movie.id }}">
+				<div>
+					<img ng-src="{{ movie.poster }}">
+				</div>
+				<div>
+					{{ movie.name }}
+				</div>
+			</a>
+		</div>
+	</div>
+</span>

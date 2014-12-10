@@ -4,6 +4,7 @@
 (function() {
 	// Module: app
 	var module = angular.module('app', [
+		'movies',
 		'routing',
 		'ui.bootstrap'
 	]);
